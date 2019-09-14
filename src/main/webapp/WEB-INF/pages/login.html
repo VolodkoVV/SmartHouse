@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Smart House</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="main">
+    <p><img src="https://image.freepik.com/free-photo/_23-2147734216.jpg" alt="img"></p>
+    <!--<c:url value="/j_spring_security_check" var="loginUrl" />-->
+    <form action="${loginUrl}" method="POST" class="form-3">
+        <p class="clearfix">
+            <label for="login">Логин</label>
+            <input type="text" value="j_spring_security_check" name="j_login" var="loginUrl" id="login" placeholder="Логин">
+        </p>
+        <p class="clearfix">
+            <label for="password">Пароль</label>
+            <input type="password" name="j_password" id="password" placeholder="Пароль">
+        </p>
+        <p class="clearfix">
+            <input type="checkbox" name="remember" id="remember">
+            <label for="remember">Запомнить меня</label>
+        </p>
+        <p class="clearfix">
+            <input type="submit" name="submit" value="Войти">
+        </p>
+        <p align="center"><a href="/register">
+            <label for="register">Register new user</label></a></p>
+        <%
+        if test="${param.error ne null}"
+        %>
+            <p align="center" class="clearfix">
+                <label for="wrong">Wrong login or password!</label></p>
+        </c:if>
+        <%
+        if test="${param.logout ne null}"
+        %>
+            <p align="center" class="clearfix">
+                <label for="chao">Chao!</label></p>
+    </form>
+</div>
+</body>
+
+</html>

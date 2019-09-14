@@ -1,0 +1,86 @@
+.main-slider{
+  background-image: url('/img/jpg/9.jpg');
+  background-color: rgb(41, 219, 247);
+}
+.main-slider img{
+  width: 800px;
+    position: relative;
+    left: 245px;
+    height: auto; 
+    top: 40px;
+}
+.main-slider .cont{
+  position: relative;
+  top: 220px;
+}
+.main-slider .slick-arrow{
+  width: 68px;
+  height: 68px;
+  background-color: rgb(255,255,255);
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -34px;
+  z-index: 999;
+  top: 100%;
+}
+.main-slider .slick-arrow::before{
+  content: "";
+  height: 62px;
+  width: 40px;
+  background-image: url('https://svgshare.com/i/Beh.svg');
+  position: absolute;
+  top: 11px;
+  left: 15px;
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+.main-slider .slick-arrow.next{
+  left: 98%;
+}
+.main-slider .slick-arrow.prev{
+  right: 98%;
+}
+.main-slider .slick-arrow.prev::before{
+  transform: rotate(180deg);
+  left: 10px;
+  top: -7px;
+}
+.main-slider .slick-arrow.next::before{
+  left: 15px;
+  
+}
+.main-slider .text{
+  display: inline-block;
+  position: absolute;
+  top: 288px;
+  left: 216px;
+}
+.main-slider .text h1{
+  margin: 0;
+  font-size: 30px;
+  font-weight: lighter;
+  padding: 0;
+  color: #E6E5E4;    
+  padding-left: 14px;
+}
+.main-slider .text h1{
+  background-color: rgba(102,98,90,1);
+  width: 284px;
+  height: 47px;
+  padding: 3px 3px 31px 1px;
+
+}
+.main-slider .text .a-text{
+  background-color: rgba(95,93,85,1);
+  margin-top: 7px; 
+  width: 329px;
+  height: 47px;
+  padding: 5px 6px 6px 13px;
+}
+
+.main-slider .a-text a{
+  color: rgb(255,255,255);
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}

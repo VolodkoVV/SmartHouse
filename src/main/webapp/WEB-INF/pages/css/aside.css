@@ -1,0 +1,84 @@
+.main-aside {
+    margin-top: 25px;
+    display: inline-block;
+    position: absolute;
+    outline: none;
+}
+.main-aside {
+    width: 236px;
+    height: auto;
+    margin-left: 941px;
+    margin-right: 0;
+    float: right
+}
+.fg {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #635F57;
+    background:transparent;
+    position: relative;
+    left: -15px;
+    padding-top: 20px;
+    padding-left: 60px;
+    z-index: 99999;
+    position: absolute;
+}
+
+mark{
+    font-size: 16px;
+    position: relative;
+    left: -197px;
+}
+
+.slider-1 img{
+    width: 100%;
+}
+.slider-1{
+    padding-top: 55px;
+}
+
+.slick-dots{
+    padding-top: 21px;
+    padding-left: 69px;
+}
+.slick-dots li{
+    display: inline-block;
+    padding: 5px;
+}
+.slick-dots button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color:#77A920;
+    color:transparent;
+}
+.slick-dots .slick-active button{
+    background-color:#4CB1CA;
+}
+.main-aside .part-1{
+    height: 435px;
+    border: 2px solid #EEEEEE;
+    border-top: solid 5px #4CB1CA;
+}
+.main-aside .part-2{
+    width: 220px;
+    height: 411px;
+    padding-top: 11px;
+    padding-left: 16px;
+}
+.main-aside .part-3{
+    height: 45px;
+    border: 2px solid #EEEEEE;
+    position: relative;
+    top:-2px;
+}
+.b-1{
+    width: 132px;
+    height: 44px;
+    background-color:#4CB1CA;
+    position: relative;
+    top: -65px;
+    left: 54px;
+    font-size: 14px;
+    color: #ffffff;
+}

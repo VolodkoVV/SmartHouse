@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,latin-ext');
+@import 'header.css';
+@import 'main-slider.css';
+@import 'main-content.css';
+@import 'aside.css';
+@import 'footer2.css';
+@import 'resp.css';
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-display: swap;
+    margin: 0;
+}
+
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+button:focus{
+    outline: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    max-width: 1055px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}

@@ -1,0 +1,138 @@
+.footer-2 {
+    background-color: rgb(1,161,187);
+    position: relative;
+    top: 630px;
+}
+
+.footer-mid {
+    display: grid;
+    grid-template-columns: 28% 28% 24.7% 19.3%;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding-top: 0px;
+    min-height: 245px;
+    position: relative;
+    left: 144px;
+}
+
+.footer-mid .twitter-cont div {
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.footer-mid .img-twett {
+    vertical-align: top;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    background-image: url('https://picua.org/images/2019/03/14/8c3228a15537088b75130166e36925f2.png');
+    background-position: -84px -144px;
+}
+
+.footer-mid .twitt-text {
+    width: 170px;
+    margin: 0 0 24px 9px;
+}
+
+.footer-mid .twitt-text a {
+    color: rgb(154,226,244);
+}
+
+.footer-mid .info a {
+    color: inherit;
+}
+
+.footer-mid .info li {
+    padding: 0px 0 5px 0px;
+}
+
+.footer-mid .info li::before {
+    background: url('https://picua.org/images/2019/03/14/8c3228a15537088b75130166e36925f2.png') no-repeat -208px -168px;
+    width: 6px;
+    height: 9px;
+    display: inline-block;
+    position: relative;
+    content: "";
+    left: -12px;
+}
+
+.footer-mid .contact li {
+    padding: 3px 0;
+}
+
+.footer-mid .social-link {
+    margin-top: 9px;
+    padding-top: 18px;
+    border-top: 1px solid #00B3CC;
+    width: 196px;
+}
+
+.contact button {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    margin-right: 6px;
+    background-image: url('https://picua.org/images/2019/03/14/8c3228a15537088b75130166e36925f2.png')
+}
+.feec-text{
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+.google {
+    background-position: -154px -89px;
+}
+
+.in {
+    background-position: -7px -48px;
+}
+
+.wifi {
+    background-position: -145px -149px;
+}
+
+.feec {
+    background-position: -53px -12px;
+}
+
+.footer-3 {
+    background-color: #004A5A;
+    position: relative;
+    top: 10px;
+}
+
+.footer-bot {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    color: #8adcf0;
+    font-size: 13px;
+    min-height: 61px;
+}
+
+.footer-bot .copyright::before {
+    content: '\00A9\00A0';
+}
+
+.footer-bot .link-footer {
+    justify-self: end;
+}
+
+.footer-bot .link-footer a {
+    display: inline-block;
+    font-size: inherit;
+    color: inherit;
+    border-right: 1px solid #00A1BB;
+    padding: 0 14px;
+    line-height: 11px;
+    text-transform: capitalize;
+}
+
+.footer-bot .link-footer a:first-child {
+    padding-left: 0;
+}
+
+.footer-bot .link-footer a:last-child {
+    border: none;
+    padding-right: 0;
+}

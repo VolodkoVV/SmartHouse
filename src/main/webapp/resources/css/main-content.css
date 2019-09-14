@@ -1,0 +1,43 @@
+.main-content {
+    margin-top: 88px;
+    display: inline-block;
+    position: absolute;
+}
+
+.main-content {
+    width: 766px;
+    height: auto;
+    margin-left: 165px;
+    margin-right: 0;
+    
+}
+/* 
+.main-content img {
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 218px;
+    height: 227px;
+    background-color: rgba(239, 241, 240);
+} */
+
+p {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0;
+    color: #464148;
+}
+.main-content .glass h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-top: 7px;
+    color: #635F57;
+    padding-left: 13px;
+    position: absolute;
+    top: -73px;
+    left: -17px;
+    font-weight: 400;
+}
+.flex-cont{
+	flex-shrink: 3;
+}
